@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Tomorrow workshop",
+    "content": "The day is to submit the AI agent workshop assignment which is the deadline as well so note it.",
+    "category": "Work",
+    "createdAt": "2025-01-15T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Client Meeting Notes",
+    "content": "Discussed new feature requirements and timeline adjustments. Client requested additional authentication options and improved mobile responsiveness. Follow-up needed on specifications.",
+    "category": "Work",
+    "createdAt": "2025-01-14T07:45:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Code Review Feedback",
+    "content": "Review PR #342 - focus on error handling, add unit tests for edge cases, improve variable naming in authentication module. Overall architecture looks good but needs optimization.",
+    "category": "Work",
+    "createdAt": "2025-01-14T02:35:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Mobile App Concept",
+    "content": "Build a habit tracking app with gamification elements. Users earn points and badges for consistency. Include social features to compete with friends and weekly challenges.",
+    "category": "Ideas",
+    "createdAt": "2025-01-11T09:50:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Blog Post Ideas",
+    "content": "Topics: React performance optimization, microservices architecture patterns, building accessible web apps, CSS Grid vs Flexbox comparisons, TypeScript best practices for large projects.",
+    "category": "Ideas",
+    "createdAt": "2025-01-10T04:40:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Grocery Shopping List",
+    "content": "Milk, eggs, bread, chicken, spinach, tomatoes, pasta, coffee beans, yogurt, apples, bananas, cheese, garlic.",
+    "category": "Personal",
+    "createdAt": "2025-01-13T10:30:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Book Recommendations",
+    "content": "Atomic Habits by James Clear, Deep Work by Cal Newport, The Pragmatic Programmer, Designing Data-Intensive Applications. Want to finish at least two books this month.",
+    "category": "Personal",
+    "createdAt": "2025-01-09T03:15:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Q1 Project Planning",
+    "content": "Outline objectives for Q1 including budget allocations, assignments, and key milestones. Need to schedule kick-off meeting with stakeholders and prepare presentation.",
+    "category": "Work",
+    "createdAt": "2025-01-10T03:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Vacation Planning",
+    "content": "Research destinations for summer vacation. Options: Rome, Florence, Venice, Japan, Tokyo, Kyoto, or Iceland. Check flight prices and accommodation options. Budget around $3000-5000.",
+    "category": "Personal",
+    "createdAt": "2025-01-07T02:00:00Z"
+  }
+]
+
