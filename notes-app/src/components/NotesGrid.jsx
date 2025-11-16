@@ -2,7 +2,7 @@
 import NoteCard from "./NoteCard";
 
 export default function NotesGrid({ notes, onOpen, onDelete }) {
-  if (notes.length === 0) {
+  if (!notes || notes.length === 0) {
     return <div className="p-6 text-gray-500">No notes found.</div>;
   }
 
