@@ -16,3 +16,4 @@ export default function NotesGrid({ notes, onOpen, onDelete }) {
     </div>
   );
 }
+///  hell
