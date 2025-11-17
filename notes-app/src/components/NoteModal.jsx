@@ -34,7 +34,7 @@ export default function NoteModal({ isOpen, existing, onClose, onSave }) {
 
   return (
     <div className="fixed inset-0 bg-black/40 flex items-center justify-center p-4 z-50">
-      <div className="bg-white rounded-lg p-6 max-w-xl w-full shadow-lg">
+      <div className="bg-white rounded-lg p-6 max-w-xl w-full shadow-lg h-full sm:h-auto sm:rounded-lg sm:max-w-xl sm:mx-auto sm:my-8 overflow-auto">
         <h2 className="text-xl font-semibold mb-4">{existing ? "Edit Note" : "New Note"}</h2>
 
         <input

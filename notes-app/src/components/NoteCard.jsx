@@ -18,8 +18,10 @@ export default function NoteCard({ note, onOpen, onDelete }) {
   return (
     <article
       onClick={() => onOpen(note)}
-      className="group bg-white border rounded-lg p-4 shadow-sm hover:shadow-md cursor-pointer flex flex-col justify-between h-full"
+      className="group bg-white border rounded-lg p-4 shadow-sm hover:shadow-md cursor-pointer flex flex-col justify-between h-full note-card"
+      style={{ paddingLeft: 12 }}
     >
+      <div className="note-accent" style={{ backgroundColor: note.category === 'Work' ? '#6366f1' : note.category === 'Personal' ? '#10b981' : note.category === 'Ideas' ? '#f59e0b' : '#9ca3af' }} />
       <div>
         <div className="flex items-start justify-between gap-3">
           <div className="flex-1">
@@ -43,14 +45,14 @@ export default function NoteCard({ note, onOpen, onDelete }) {
             className="text-gray-600 hover:text-gray-900"
             title="Edit"
           >
-            
+            ✏️
           </button>
           <button
             onClick={(e) => { e.stopPropagation(); if(window.confirm('Delete this note?')) onDelete(note.id); }}
             className="text-red-500 hover:text-red-700"
             title="Delete"
           >
-            
+            🗑
           </button>
         </div>
       </div>

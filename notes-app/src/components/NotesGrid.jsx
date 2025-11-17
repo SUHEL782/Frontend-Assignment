@@ -7,10 +7,12 @@ export default function NotesGrid({ notes, onOpen, onDelete }) {
   }
 
   return (
-    <div className="p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {notes.map((note) => (
-        <NoteCard key={note.id} note={note} onOpen={onOpen} onDelete={onDelete} />
-      ))}
+    <div className="p-6 container-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {notes.map((note) => (
+          <NoteCard key={note.id} note={note} onOpen={onOpen} onDelete={onDelete} />
+        ))}
+      </div>
     </div>
   );
 }
